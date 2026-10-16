@@ -1,0 +1,7 @@
+# Copie para ~/.config/tradutor-de-jogos/config.toml, ou use TG_CONFIG.
+model = "tradutor-de-jogos:4b"
+context = "general" # "eve" ativa o glossário e os nomes próprios do EVE.
+cache_entries = 128 # Contém texto reconhecido e traduzido: dados privados locais.
+# Políticas conservadoras do piloto NVIDIA; não são requisitos do modelo.
+min_available_ram_gib = 4
+min_free_vram_mib = 5000

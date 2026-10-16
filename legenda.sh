@@ -1,0 +1,6 @@
+#!/bin/sh
+set -eu
+PROJECT_DIR=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+umask 077
+export GSK_RENDERER=cairo
+exec /usr/bin/python3 "$PROJECT_DIR/viewer.py"
